@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Fragment.DetailDriver">
+
+    <EditText
+        android:id="@+id/txtdriverlicense"
+        android:layout_width="284dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/textfeild"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="Driver's License"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:textColor="#4A4B4D"
+        app:layout_constraintEnd_toEndOf="@+id/txtdriveridnumber"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtdriveridnumber"
+        app:layout_constraintTop_toBottomOf="@+id/txtdriveridnumber" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:fontFamily="@font/poppins"
+        android:text="Driver's License"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/txtdriverlicense"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtdriveridnumber" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/poppins"
+        android:text="Username"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/txtdriverusername"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtdriveraddress"
+        app:layout_constraintVertical_bias="0.666" />
+
+    <EditText
+        android:id="@+id/txtdriveridnumber"
+        android:layout_width="284dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/textfeild"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="ID Number"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:textColor="#4A4B4D"
+        app:layout_constraintEnd_toEndOf="@+id/txtdriverusername"
+        app:layout_constraintStart_toStartOf="@+id/txtdriverusername"
+        app:layout_constraintTop_toBottomOf="@+id/txtdriverusername" />
+
+    <EditText
+        android:id="@+id/txtdriveraddress"
+        android:layout_width="284dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/textfeild"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="Address"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:textColor="#4A4B4D"
+        app:layout_constraintEnd_toEndOf="@+id/txtdriveremail"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtdriveremail"
+        app:layout_constraintTop_toBottomOf="@+id/txtdriveremail" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="@font/poppins"
+        android:text="Gender"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/txtdrivergender"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/txtdrivergender"
+        android:layout_width="284dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/textfeild"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="Gender"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:textColor="#4A4B4D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView28" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="@font/poppins"
+        android:text="Phone"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/txtdriverphone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtdrivergender" />
+
+    <EditText
+        android:id="@+id/txtdriverphone"
+        android:layout_width="284dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/textfeild"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="Phone"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:textColor="#4A4B4D"
+        app:layout_constraintEnd_toEndOf="@+id/txtdrivergender"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtdrivergender"
+        app:layout_constraintTop_toBottomOf="@+id/txtdrivergender" />
+
+    <EditText
+        android:id="@+id/txtdriveremail"
+        android:layout_width="284dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/textfeild"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:textColor="#4A4B4D"
+        app:layout_constraintEnd_toEndOf="@+id/txtdriverphone"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtdriverphone"
+        app:layout_constraintTop_toBottomOf="@+id/txtdriverphone" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="@font/poppins"
+        android:text="Email"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/txtdriveremail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtdriverphone" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="@font/poppins"
+        android:text="Address"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/txtdriveraddress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtdriveremail" />
+
+    <EditText
+        android:id="@+id/txtdriverusername"
+        android:layout_width="284dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/textfeild"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:textColor="#4A4B4D"
+        app:layout_constraintEnd_toEndOf="@+id/txtdriveraddress"
+        app:layout_constraintStart_toStartOf="@+id/txtdriveraddress"
+        app:layout_constraintTop_toBottomOf="@+id/txtdriveraddress" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/poppins"
+        android:text="ID Number"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/txtdriveridnumber"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtdriverusername"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="410dp"
+        android:layout_height="114dp"
+        android:src="@drawable/retangle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtdrivername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Name"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/circleImageView"
+        app:layout_constraintStart_toEndOf="@+id/circleImageView"
+        app:layout_constraintTop_toTopOf="@+id/circleImageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/btn_icon"
+        android:src="@drawable/driver"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btndriverback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#0CFFFFFF"
+        android:src="@drawable/backicon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/switchstatedriver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/poppins"
+        android:text="State"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/txtdrivername"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtdrivername"
+        app:layout_constraintTop_toBottomOf="@+id/txtdrivername"
+        tools:checked="true" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

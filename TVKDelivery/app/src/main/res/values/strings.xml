@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TVKDelivery</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--    <string name="error_field_required">Không được để trống phần này</string>
+    <string name="error_uName_pass_not_matched">Tài khoản của bạn chưa được tạo hoặc lựa chọn không đúng phân quyền !</string>
+    <string name="error_not_matched_format_username">Tên đăng nhập không được có khoảng trắng và kí tự đặc biệt và từ 8-16 kí tự</string>
+    <string name="error_not_matched_format_password">Tên đăng nhập không được có khoảng trắng và kí tự đặc biệt và từ 8-16 kí tự</string>
+    <string name="error_not_matched_format_confirmPassword">Xác nhận mật khẩu phải khớp với mật khẩu</string>
+    <string name="error_not_matched_format_phone">Số điện thoại phải bắt đầu từ số 0 và có 10-11 số và không có kí tự</string>-->
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.HomeDriver">
+
+
+    <RelativeLayout
+        android:id="@+id/toplayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background">
+        <EditText
+            android:id="@+id/timkiem"
+            android:drawableLeft="@drawable/search1"
+            android:drawablePadding="10dp"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:hint="Tìm kiếm"
+            android:textColor="@color/white"
+            android:textColorLink="@color/white"
+            android:textColorHint="#FFF"
+            android:backgroundTint="@color/white"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/btnlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toplayout"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btndonchuaxong"
+            android:layout_width="80dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/white"
+            android:drawableTop="@drawable/order"
+            android:text="Chưa xong"
+            android:textSize="13dp"
+            android:textColor="@color/black" />
+        <Button
+            android:id="@+id/btndondaxong"
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="10dp"
+            android:drawableTop="@drawable/list"
+            android:layout_toRightOf="@id/btndonchuaxong"
+            android:layout_width="80dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:text="Đã xong"
+            android:textSize="13dp"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/btnhangmoi"
+            android:backgroundTint="@color/white"
+            android:drawableTop="@drawable/newmessage2"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/btndondaxong"
+            android:layout_width="80dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:text="Hàng mới"
+            android:textSize="13dp"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/btnlienhe"
+            android:backgroundTint="@color/white"
+            android:drawableTop="@drawable/carecustomer"
+            android:layout_toRightOf="@id/btnhangmoi"
+            android:layout_width="80dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="13dp"
+            android:text="Liên hệ"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/thongtinchuyen"
+        android:drawableLeft="@drawable/info"
+        android:drawablePadding="10dp"
+        android:paddingLeft="25dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/btnlayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Thông tin chuyến hàng"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:background="@color/background"/>
+    <RelativeLayout
+        android:id="@+id/midlayout"
+        android:layout_below="@id/thongtinchuyen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgview1"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:background="@color/gray" />
+        <TextView
+            android:gravity="center"
+            android:layout_below="@id/imgview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Not found"/>
+    </RelativeLayout>
+</RelativeLayout>
